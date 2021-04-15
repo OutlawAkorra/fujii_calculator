@@ -16,76 +16,36 @@
     <!-- calculator body -->
     <div class="container">
         <!-- calculator display screen -->
-        <div class="display">
+        <input type="text" class="display" disabled>
 
-        </div>
         <!-- col 1 buttons 1,4,7 -->
         <div class="col span-1-of-4 box">
-            <div class="but" id="but1">
-                <p>1</p>
-            </div>
-            <div class="but" id="but4">
-                <p>4</p>
-            </div>
-            <div class="but" id="but7">
-                <p>7</p>
-            </div>
-            <div class="but" id="butC">
-                <p>C</p>
-            </div>
-
+            <button value="1" id="but1">1</button>
+            <button value="4" id="but4">4</button>
+            <button value="7" id="but7">7</button>
+            <button class="operator" value="C" id="butC">C</button>
         </div>
         <!-- col 2 buttons 2,5,8,0-->
         <div class="col span-1-of-4 box">
-            <div class="but" id="but2">
-                <p>2</p>
-            </div>
-            <div class="but" id="but5">
-                <p>5</p>
-            </div>
-            <div class="but" id="but8">
-                <p>8</p>
-            </div>
-            <div class="but" id="but0">
-                <p>0</p>
-            </div>
-
+            <button value="2" id="but2">2</button>
+            <button value="5" id="but5">5</button>
+            <button value="8" id="but8">8</button>
+            <button value="0" id="but0">0</button>
         </div>
         <!-- col 3 buttons 3,6,9,. -->
         <div class="col span-1-of-4 box">
-            <div class="but" id="but3">
-                <p>3</p>
-            </div>
-            <div class="but" id="but6">
-                <p>6</p>
-            </div>
-            <div class="but" id="but9">
-                <p>9</p>
-            </div>
-            <div class="but" id="but.">
-                <p>.</p>
-            </div>
-
+            <button value="3" id="but3">3</button>
+            <button value="6" id="but6">6</button>
+            <button value="9" id="but9">9</button>
+            <button class="operator" value="." id="but.">.</button>
         </div>
         <!-- col 4 buttons +,-,*,/,=,C -->
         <div class="col span-1-of-4 box">
-            <div class="but" id="but+">
-                <p>+</p>
-            </div>
-            <div class="but" id="but-">
-                <p>-</p>
-            </div>
-            <div class="but" id="but*">
-                <p>*</p>
-            </div>
-            <div class="but" id="but/">
-                <p>/</p>
-            </div>
-            <div class="but" id="but=">
-                <p>=</p>
-            </div>
-
-
+            <button class="operator" value="+" id="but+">+</button>
+            <button class="operator" value="-" id="but-">-</button>
+            <button class="operator" value="*" id="but*">*</button>
+            <button class="operator" value="/" id="but/">/</button>
+            <button class="operator" value="=" id="but=">=</button>
         </div>
     </div>
 

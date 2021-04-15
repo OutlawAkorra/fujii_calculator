@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: rgb(235, 39, 39);
+    background-color: rgb(236, 227, 227);
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -17,11 +17,12 @@ html {
 .container {
     width: 500px;
     height: 700px;
-    background-color: aqua;
+    background-color: rgb(172, 177, 177);
     margin-left: 400px;
     margin-top: 200px;
-    border-radius: 50px;
+    border-radius: 10px;
     padding-top: 15px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,1);
 }
 
 /* display styling */
@@ -30,8 +31,12 @@ html {
     height: 70px;
     background-color: black;
     border-radius: 10px;
+    bor;
     margin-left: 50px;
     margin-top: 60px;
+    text-align: center;
+    font-size: 2em;
+    color: seashell;
 }
 
 /* Column/Span styling */
@@ -43,17 +48,30 @@ html {
 }
 
 /* button styling */
-.but {
+
+button {
     width: 70px;
     height: 70px;
     background-color: cornsilk;
     margin-top: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 3px  rgba(0,0,0,0.20);
+  }
+
+button:hover {
+    transform: scale(1.1);
 }
 
-p {
-    padding: 19px;
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
+button:active {
+    background-color:  rgb(13, 240, 13);
+    box-shadow: 0 0px #666;
+    border-radius: 10px;
+    transform: scale(1.1) translateY(4px);
+    transition: all .3s;
+  }
+
+
+.operator {
+    background-color: rgb(241, 128, 128);
 }
+
